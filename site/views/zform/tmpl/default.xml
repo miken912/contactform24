@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<metadata>
+    <layout title="COM_CONTACTFORM24_ZFORM"/>
+    <fields name="request">
+        <fieldset
+                name="request"
+                addfieldpath="/administrator/components/com_contactform24/models/fields">
+
+        </fieldset>
+    </fields>
+</metadata>
