@@ -27,7 +27,6 @@ class Contactform24ModelForm extends JModelLegacy
 			$tel=JRequest::getVar('tel');
 			$email=JRequest::getVar('email');
 			$comment=JRequest::getVar('comment');
-			$product=JRequest::getVar('product');
 			
 			
 			
@@ -51,10 +50,6 @@ class Contactform24ModelForm extends JModelLegacy
     <tr>
       <td>Комментарий</td>
       <td>'.$comment.'</td>
-    </tr>
-    <tr>
-      <td>Заказанный товар</td>
-      <td>'.$product.'</td>
     </tr>
   </tbody>
 </table>' ;

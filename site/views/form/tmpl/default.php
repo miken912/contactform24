@@ -47,7 +47,7 @@ if (!isset($this->mail)) {
   </div>
   <div class="form-group">
     <div class=" col-sm-12 text-center">
-    <input type="hidden" value="<? echo $product;?>" class="" id="inputproduct">
+   
       <button type="submit" class="btn btn-lg btn-warning btn-mebel">Отправить</button>
     </div>
   </div>
@@ -88,7 +88,7 @@ if (!isset($this->mail)) {
        jQuery.ajax({ // отправляем данные          
 		  type: "POST",
           url: 'index.php?option=com_contactform24&view=form&tmpl=component&format=raw',
-          data: "name="+name+"&tel="+tel+"&email="+email+"&comment="+comment+"&product="+product+"&tasks=sending",
+          data: "name="+name+"&tel="+tel+"&email="+email+"&comment="+comment+"&tasks=sending",
           success: function (data){
             //console.log(data); // проверим данные, полученные с бэкэнда
             if (data == 'Error') {
